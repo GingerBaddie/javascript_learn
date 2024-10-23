@@ -58,3 +58,7 @@ console.log(b);     // Output => false
 let c = "";
 let d = Boolean(c);
 console.log(d);  // Output => true
+
+console.log(true); // output => true
+console.log(+true); // output => 1
+console.log(+""); // output => 0
